@@ -1,0 +1,40 @@
+﻿a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+
+
+#todo-list 
+{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	/*list-image-1: url()*/
+}
+
+#todo-list li {
+	border-bottom: 1px dotted cadetblue;
+}
+
+#todo-list li label {
+	padding: 15px;
+	line-height: 1.2em;
+}
+
+#MainPanel {
+	width: 400px;
+}
+
+#SideToggleSwitch {
+	/*float: right;	*/ /* trying to put it on right side*/
+}
+
+#TaskAddPanel {
+	border-left: 1px solid red;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.taskCommands {
+	float: right;
+}

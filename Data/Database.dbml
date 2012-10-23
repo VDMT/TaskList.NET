@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ToDoList" Class="DatabaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=WIZARD;Initial Catalog=ToDoList;Persist Security Info=True;User ID=todolist" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ToDoListConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ToDos" Member="ToDos">
+    <Type Name="ToDo">
+      <Column Name="TodoId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TodoDescMain" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TodoDescSecondary" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TodoDueDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TaskCompleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
